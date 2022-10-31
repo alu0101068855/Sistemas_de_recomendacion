@@ -232,7 +232,8 @@ function calcularVecinos(metrica, vecinos, usuarioX, posCalcular, matrizSimilitu
 ```
 
 4. **Predicción**
-Se debe implementar las formulas matemáticas de la predicción seleccionada y rellenar la matriz Resultado con los valors obtenidos.
+5. 
+Se debe implementar las formulas matemáticas de la predicción seleccionada y rellenar la matriz Resultado con los valores obtenidos.
 
 Ejemplo predicción Simple:
 ```javascript
