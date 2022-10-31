@@ -1,0 +1,162 @@
+1. Metrica empleada: Euclidea 
+
+2. Metodo de prediccion:  Simple 
+
+3. Número de vecinos: 5 
+
+MATRIZ DE SIMILITUD
+[0] => 0.000		0.000		0.400		0.200		0.000		
+[1] => 0.000		0.000		0.400		0.200		0.000		
+[2] => 0.400		0.400		0.000		0.200		0.000		
+[3] => 0.200		0.200		0.200		0.000		0.000		
+[4] => 0.000		0.000		0.000		0.000		0.000		
+
+ Vecinos utilizados para calcular Usuario 0 -> Item 2
+[ [ 2, 0.39999999999999997 ], [ 3, 0.2 ] ]
+Resultado de la prediccion: 0.133
+
+ Vecinos utilizados para calcular Usuario 0 -> Item 5
+[]
+Resultado de la prediccion: NaN
+
+ Vecinos utilizados para calcular Usuario 0 -> Item 8
+[]
+Resultado de la prediccion: NaN
+
+ Vecinos utilizados para calcular Usuario 0 -> Item 5
+[]
+Resultado de la prediccion: NaN
+
+ Vecinos utilizados para calcular Usuario 0 -> Item 8
+[]
+Resultado de la prediccion: NaN
+
+ Vecinos utilizados para calcular Usuario 0 -> Item 5
+[]
+Resultado de la prediccion: NaN
+
+ Vecinos utilizados para calcular Usuario 0 -> Item 8
+[]
+Resultado de la prediccion: NaN
+
+ Vecinos utilizados para calcular Usuario 1 -> Item 2
+[ [ 2, 0.39999999999999997 ], [ 3, 0.2 ] ]
+Resultado de la prediccion: 0.133
+
+ Vecinos utilizados para calcular Usuario 1 -> Item 5
+[]
+Resultado de la prediccion: NaN
+
+ Vecinos utilizados para calcular Usuario 1 -> Item 6
+[ [ 3, 0.2 ], [ 0, 0 ], [ 0, 0 ], [ 0, 0 ] ]
+Resultado de la prediccion: 1.000
+
+ Vecinos utilizados para calcular Usuario 1 -> Item 7
+[
+  [ 2, 0.39999999999999997 ],
+  [ 3, 0.2 ],
+  [ 0, 0 ],
+  [ 0, 0 ],
+  [ 0, 0 ]
+]
+Resultado de la prediccion: 0.867
+
+ Vecinos utilizados para calcular Usuario 1 -> Item 5
+[]
+Resultado de la prediccion: NaN
+
+ Vecinos utilizados para calcular Usuario 1 -> Item 5
+[]
+Resultado de la prediccion: NaN
+
+ Vecinos utilizados para calcular Usuario 1 -> Item 5
+[]
+Resultado de la prediccion: NaN
+
+ Vecinos utilizados para calcular Usuario 2 -> Item 5
+[]
+Resultado de la prediccion: NaN
+
+ Vecinos utilizados para calcular Usuario 2 -> Item 6
+[
+  [ 0, 0.39999999999999997 ],
+  [ 3, 0.19999999999999996 ],
+  [ 0, 0.39999999999999997 ],
+  [ 0, 0.39999999999999997 ]
+]
+Resultado de la prediccion: 1.000
+
+ Vecinos utilizados para calcular Usuario 2 -> Item 8
+[ [ 1, 0.39999999999999997 ] ]
+Resultado de la prediccion: 0.200
+
+ Vecinos utilizados para calcular Usuario 2 -> Item 9
+[
+  [ 0, 0.39999999999999997 ],
+  [ 1, 0.39999999999999997 ],
+  [ 3, 0.19999999999999996 ],
+  [ 0, 0.39999999999999997 ],
+  [ 0, 0.39999999999999997 ]
+]
+Resultado de la prediccion: 0.178
+
+ Vecinos utilizados para calcular Usuario 2 -> Item 5
+[]
+Resultado de la prediccion: NaN
+
+ Vecinos utilizados para calcular Usuario 2 -> Item 5
+[]
+Resultado de la prediccion: NaN
+
+ Vecinos utilizados para calcular Usuario 2 -> Item 5
+[]
+Resultado de la prediccion: NaN
+
+ Vecinos utilizados para calcular Usuario 3 -> Item 4
+[
+  [ 0, 0.2 ],
+  [ 1, 0.2 ],
+  [ 2, 0.19999999999999996 ],
+  [ 0, 0.2 ],
+  [ 0, 0.2 ]
+]
+Resultado de la prediccion: 0.120
+
+ Vecinos utilizados para calcular Usuario 3 -> Item 5
+[]
+Resultado de la prediccion: NaN
+
+ Vecinos utilizados para calcular Usuario 3 -> Item 8
+[ [ 1, 0.2 ] ]
+Resultado de la prediccion: 0.200
+
+ Vecinos utilizados para calcular Usuario 3 -> Item 5
+[]
+Resultado de la prediccion: NaN
+
+ Vecinos utilizados para calcular Usuario 3 -> Item 5
+[]
+Resultado de la prediccion: NaN
+
+ Vecinos utilizados para calcular Usuario 4 -> Item 0
+[ [ 0, 0 ], [ 0, 0 ], [ 0, 0 ], [ 0, 0 ], [ 0, 0 ] ]
+Resultado de la prediccion: NaN
+
+ Vecinos utilizados para calcular Usuario 4 -> Item 9
+[ [ 0, 0 ], [ 0, 0 ], [ 0, 0 ], [ 0, 0 ], [ 0, 0 ] ]
+Resultado de la prediccion: NaN
+
+ Vecinos utilizados para calcular Usuario 4 -> Item 0
+[ [ 0, 0 ], [ 0, 0 ], [ 0, 0 ], [ 0, 0 ], [ 0, 0 ] ]
+Resultado de la prediccion: NaN
+
+ Vecinos utilizados para calcular Usuario 4 -> Item 9
+[ [ 0, 0 ], [ 0, 0 ], [ 0, 0 ], [ 0, 0 ], [ 0, 0 ] ]
+Resultado de la prediccion: NaN
+
+MATRIZ DE RESULTADOS
+[0] => 0.200		0.400		0.133		0.800		0.000		NaN		1.000		0.200		NaN		0.200		
+[1] => 0.200		0.400		0.133		0.200		0.000		NaN		1.000		0.867		0.200		0.000		
+[2] => 0.600		0.600		0.200		1.000		0.600		NaN		1.000		1.000		0.200		0.178		
+[3] => 0.400		0.200		0.000		0.200		0.120		NaN		1.000		0.600		0.200		0.400		
+[4] => NaN		0.400		0.800		1.000		0.600		0.600		0.000		0.200		0.400		NaN		
