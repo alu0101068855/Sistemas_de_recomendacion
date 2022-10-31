@@ -2,7 +2,7 @@
 
 2. Metodo de prediccion:  Simple 
 
-3. Número de vecinos: 10 
+3. Número de vecinos: 5 
 
 MATRIZ DE SIMILITUD
 [0] => 1.000		0.239		0.313		-0.230		-0.153		
