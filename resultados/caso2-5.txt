@@ -1,0 +1,112 @@
+1. Metrica empleada: Coseno 
+
+2. Metodo de prediccion:  Media 
+
+3. Número de vecinos: 10 
+
+MATRIZ DE SIMILITUD
+[0] => 1.000		0.758		0.753		0.482		0.394		
+[1] => 0.758		1.000		0.699		0.745		0.724		
+[2] => 0.753		0.699		1.000		0.689		0.861		
+[3] => 0.482		0.745		0.689		1.000		0.409		
+[4] => 0.394		0.724		0.861		0.409		1.000		
+
+ Vecinos utilizados para calcular Usuario 0 -> Item 1
+[
+  [ 4, 0.3939192985791676 ],
+  [ 3, 0.4824506406770076 ],
+  [ 2, 0.7530940414109724 ],
+  [ 1, 0.7580980435789034 ]
+]
+
+Resultado prediccion - Usuario 0  -> Item  1  = 0.7338 
+
+
+ Vecinos utilizados para calcular Usuario 0 -> Item 2
+[
+  [ 4, 0.3939192985791676 ],
+  [ 3, 0.4824506406770076 ],
+  [ 2, 0.7530940414109724 ],
+  [ 1, 0.7580980435789034 ]
+]
+
+Resultado prediccion - Usuario 0  -> Item  2  = 0.3932 
+
+
+ Vecinos utilizados para calcular Usuario 0 -> Item 5
+[
+  [ 4, 0.3939192985791676 ],
+  [ 2, 0.7530940414109724 ],
+  [ 1, 0.7580980435789034 ]
+]
+
+Resultado prediccion - Usuario 0  -> Item  5  = 0.6909 
+
+
+ Vecinos utilizados para calcular Usuario 0 -> Item 7
+[
+  [ 4, 0.3939192985791676 ],
+  [ 3, 0.4824506406770076 ],
+  [ 2, 0.7530940414109724 ]
+]
+
+Resultado prediccion - Usuario 0  -> Item  7  = 0.5447 
+
+
+ Vecinos utilizados para calcular Usuario 0 -> Item 9
+[
+  [ 3, 0.4824506406770076 ],
+  [ 2, 0.7530940414109724 ],
+  [ 1, 0.7580980435789034 ]
+]
+
+Resultado prediccion - Usuario 0  -> Item  9  = 0.0798 
+
+
+ Vecinos utilizados para calcular Usuario 1 -> Item 7
+[
+  [ 2, 0.6986558193158477 ],
+  [ 4, 0.7242506521172064 ],
+  [ 3, 0.7449887315796285 ]
+]
+
+Resultado prediccion - Usuario 1  -> Item  7  = 0.557 
+
+
+ Vecinos utilizados para calcular Usuario 1 -> Item 8
+[
+  [ 2, 0.6986558193158477 ],
+  [ 4, 0.7242506521172064 ],
+  [ 3, 0.7449887315796285 ],
+  [ 0, 0.7580980435789034 ]
+]
+
+Resultado prediccion - Usuario 1  -> Item  8  = 0.3358 
+
+
+ Vecinos utilizados para calcular Usuario 3 -> Item 5
+[
+  [ 4, 0.40878937524799963 ],
+  [ 2, 0.6889283267815867 ],
+  [ 1, 0.7449887315796285 ]
+]
+
+Resultado prediccion - Usuario 3  -> Item  5  = 0.5734 
+
+
+ Vecinos utilizados para calcular Usuario 4 -> Item 9
+[
+  [ 3, 0.40878937524799963 ],
+  [ 1, 0.7242506521172064 ],
+  [ 2, 0.8609021141167814 ]
+]
+
+Resultado prediccion - Usuario 4  -> Item  9  = 0.2768 
+
+
+MATRIZ DE RESULTADOS
+[0] => 0.800		0.734		0.393		0.000		0.400		0.691		0.600		0.545		0.000		0.080		
+[1] => 0.400		0.800		0.800		0.200		0.200		0.600		0.000		0.557		0.336		0.400		
+[2] => 0.400		1.000		0.200		0.400		0.200		1.000		1.000		1.000		0.400		0.000		
+[3] => 0.200		0.800		0.200		0.600		0.200		0.573		0.200		0.000		0.000		0.000		
+[4] => 0.000		0.600		0.800		0.000		0.000		1.000		1.000		0.800		1.000		0.277		

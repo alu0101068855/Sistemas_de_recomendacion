@@ -1,0 +1,55 @@
+1. Metrica empleada: Euclidea 
+
+2. Metodo de prediccion:  Simple 
+
+3. Número de vecinos: 10 
+
+MATRIZ DE SIMILITUD
+[0] => 0.000		0.400		0.400		0.600		0.800		
+[1] => 0.400		0.000		0.000		0.200		0.400		
+[2] => 0.400		0.000		0.000		0.200		0.400		
+[3] => 0.600		0.200		0.200		0.000		0.200		
+[4] => 0.800		0.400		0.400		0.200		0.000		
+
+ Vecinos utilizados para calcular Usuario 0 -> Item 1
+[ [ 4, 0.8 ], [ 3, 0.6000000000000001 ], [ 1, 0.4 ], [ 2, 0.4 ] ]
+Resultado de la prediccion: 0.764
+
+ Vecinos utilizados para calcular Usuario 0 -> Item 2
+[ [ 4, 0.8 ], [ 3, 0.6000000000000001 ], [ 1, 0.4 ], [ 2, 0.4 ] ]
+Resultado de la prediccion: 0.527
+
+ Vecinos utilizados para calcular Usuario 0 -> Item 5
+[ [ 4, 0.8 ], [ 1, 0.4 ], [ 2, 0.4 ] ]
+Resultado de la prediccion: 0.900
+
+ Vecinos utilizados para calcular Usuario 0 -> Item 7
+[ [ 4, 0.8 ], [ 3, 0.6000000000000001 ], [ 2, 0.4 ] ]
+Resultado de la prediccion: 0.578
+
+ Vecinos utilizados para calcular Usuario 0 -> Item 9
+[ [ 3, 0.6000000000000001 ], [ 1, 0.4 ], [ 2, 0.4 ] ]
+Resultado de la prediccion: 0.114
+
+ Vecinos utilizados para calcular Usuario 1 -> Item 7
+[ [ 4, 0.4 ], [ 3, 0.2 ] ]
+Resultado de la prediccion: 0.533
+
+ Vecinos utilizados para calcular Usuario 1 -> Item 8
+[ [ 0, 0.4 ], [ 4, 0.4 ], [ 3, 0.2 ], [ 0, 0.4 ], [ 0, 0.4 ] ]
+Resultado de la prediccion: 0.222
+
+ Vecinos utilizados para calcular Usuario 3 -> Item 5
+[ [ 1, 0.2 ], [ 2, 0.2 ], [ 4, 0.2 ] ]
+Resultado de la prediccion: 0.867
+
+ Vecinos utilizados para calcular Usuario 4 -> Item 9
+[ [ 1, 0.4 ], [ 2, 0.4 ], [ 3, 0.2 ] ]
+Resultado de la prediccion: 0.160
+
+MATRIZ DE RESULTADOS
+[0] => 0.800		0.764		0.527		0.000		0.400		0.900		0.600		0.578		0.000		0.114		
+[1] => 0.400		0.800		0.800		0.200		0.200		0.600		0.000		0.533		0.222		0.400		
+[2] => 0.400		1.000		0.200		0.400		0.200		1.000		1.000		1.000		0.400		0.000		
+[3] => 0.200		0.800		0.200		0.600		0.200		0.867		0.200		0.000		0.000		0.000		
+[4] => 0.000		0.600		0.800		0.000		0.000		1.000		1.000		0.800		1.000		0.160		
