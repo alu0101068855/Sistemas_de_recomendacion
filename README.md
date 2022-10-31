@@ -122,6 +122,7 @@ Una vez hecho esto se crea la matriz de similitud con el mismo tamaño que la ma
         }
 ```
 2. **Métricas**
+
 Para calcular la matriz de similitud se elige uno de los tres métodos que se pasan por argumentos y se recorre cada posición de la matriz de similitudes rellenando con los valores correspondientes según la métrica elegida.
 ```javascript
 function calcularSimilitud(metrica, matrizSimilitud, vectorNorm) {
